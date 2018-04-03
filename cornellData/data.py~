@@ -1,0 +1,15 @@
+def getLines(data):
+    pass
+
+def getConvs(data):
+    pass
+
+data = open('movie_lines.txt').read()
+data = data.split('\n')
+lines = getLines(data)
+del data
+
+data = open('movie_conversations.txt').read()
+data = data.split('\n')
+convs = getConvs(data)
+del data
